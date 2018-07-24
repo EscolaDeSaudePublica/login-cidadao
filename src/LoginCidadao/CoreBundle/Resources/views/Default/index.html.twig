@@ -5,7 +5,7 @@
 {% set is_login_page = is_lc_home or app.request.attributes.get('_route') == 'fos_user_security_login' %}
 {% set is_register_page = app.request.attributes.get('_route') == 'fos_user_registration_register' %}
 {% set requested_page = is_login_page ? 'login' : 'register' %}
-
+{#
 {% block top_buttons %}
     <a href="{{ path('fos_user_registration_register') }}" class="btn btn-home-register"
             {{ is_register_page ? 'style="display: none"' : '' }}>{{ 'home.register.button' | trans }}</a>
@@ -14,7 +14,7 @@
         {{ 'home.login.button' | trans }}
     </a>
 {% endblock %}
-
+#}
 {% block panel_body %}
     <div class="login" {{ is_register_page ? 'style="display: none"' : '' }}>
         {{ include('LoginCidadaoCoreBundle::common.login.html.twig') }}
@@ -26,7 +26,7 @@
         {{ include('LoginCidadaoCoreBundle::common.register.html.twig') }}
     </div>
 {% endblock %}
-
+{#
 {% block panel_footer_class %}{% endblock %}
 {% block panel_footer %}
     <div class="panel panel-3rd-party-login">
@@ -38,7 +38,7 @@
         </div>
     </div>
 {% endblock %}
-
+#}
 {% block stylesheets_custom %}
     {% stylesheets '@lc_login_register_css' filter='cssrewrite' filter='?uglifycss' %}
     <link rel="stylesheet" href="{{ asset_url }}"/>

@@ -44,12 +44,13 @@ html, body {
     color: #fff;
     display: table;
     width: 100%;
-    min-height: 60px;
+    min-height: 64px;
 }
 
 .panel-compact > .panel-heading .heading-container {
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
 }
 
 @media (max-width: 270px) {
@@ -64,7 +65,7 @@ html, body {
 }
 
 .panel-compact .panel-heading img.logo {
-    max-width: 115px;
+    max-width: 170px;
     max-height: 50px;
 }
 
