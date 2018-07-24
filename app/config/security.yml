@@ -147,49 +147,49 @@ security:
           anonymous:  true
 
     access_control:
-        - { path: ^/admin, role: [ROLE_SUPER], requires_channel: https }
-        - { path: ^/dev, role: [ROLE_DEV], requires_channel: https }
+        - { path: ^/admin, role: [ROLE_SUPER], requires_channel: http }
+        - { path: ^/dev, role: [ROLE_DEV], requires_channel: http }
 
-        - { path: ^/_error, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
+        - { path: ^/_error, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
 
-        - { path: ^/api/v1/address/(cities|states|countries)/search, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/api/v1/address/cities/prefetch, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/api/v1/public/lc_consultaCep2, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/api/v1/statistics, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/api/v1/accounting, role: IS_AUTHENTICATED_ANONYMOUSLY, ip: %allowed_accounting%, requires_channel: https }
-        - { path: ^/api, roles: [ IS_AUTHENTICATED_FULLY ], requires_channel: https }
+        - { path: ^/api/v1/address/(cities|states|countries)/search, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/api/v1/address/cities/prefetch, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/api/v1/public/lc_consultaCep2, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/api/v1/statistics, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/api/v1/accounting, role: IS_AUTHENTICATED_ANONYMOUSLY, ip: %allowed_accounting%, requires_channel: http }
+        - { path: ^/api, roles: [ IS_AUTHENTICATED_FULLY ], requires_channel: http }
 
-        - { path: ^/oauth$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/.well-known, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/openid/connect/(session|jwks|register|verify|token), role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/openid/connect/authorize, role: IS_AUTHENTICATED_REMEMBERED, requires_channel: https }
-        - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
+        - { path: ^/oauth$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/.well-known, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/openid/connect/(session|jwks|register|verify|token), role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/openid/connect/authorize, role: IS_AUTHENTICATED_REMEMBERED, requires_channel: http }
+        - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
 
         # Phone Verification
-        - { path: ^/v/, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/phone-verification/success$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
+        - { path: ^/v/, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/phone-verification/success$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
 
-        - { path: ^/connect/facebook$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/connect/twitter$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/connect/google$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/nfg/(help|select-action|login|create|connect|callback|unavailable|wait|missing-info), role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
+        - { path: ^/connect/facebook$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/connect/twitter$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/connect/google$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/nfg/(help|select-action|login|create|connect|callback|unavailable|wait|missing-info), role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
 
-        - { path: ^/monitor/health, role: IS_AUTHENTICATED_ANONYMOUSLY, ip: %allowed_monitors%, requires_channel: https }
-        - { path: ^/public/status, role: IS_AUTHENTICATED_ANONYMOUSLY, ip: %allowed_monitors%, requires_channel: https }
+        - { path: ^/monitor/health, role: IS_AUTHENTICATED_ANONYMOUSLY, ip: %allowed_monitors%, requires_channel: http }
+        - { path: ^/public/status, role: IS_AUTHENTICATED_ANONYMOUSLY, ip: %allowed_monitors%, requires_channel: http }
 
         - { path: ^/nelmio/csp/report$, role: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/(contact|privacy|about|help|register), role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/person/checkEmailAvailable, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
+        - { path: ^/(contact|privacy|about|help|register), role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/person/checkEmailAvailable, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
 
-        - { path: ^/job, role: ROLE_SUPER_ADMIN, requires_channel: https }
-        - { path: ^/external/navbar.js, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
+        - { path: ^/job, role: ROLE_SUPER_ADMIN, requires_channel: http }
+        - { path: ^/external/navbar.js, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
 
-        - { path: ^/logout/if-not-remembered, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
-        - { path: ^/$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
+        - { path: ^/logout/if-not-remembered, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: ^/$, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
 
-        - { path: ^/, roles: IS_AUTHENTICATED_REMEMBERED, requires_channel: https }
-        - { path: ^/profile/edit, roles: IS_AUTHENTICATED_FULLY, requires_channel: https }
-        - { path: ^/profile/change-username, roles: IS_AUTHENTICATED_FULLY, requires_channel: https }
-        - { path: ^/profile/change-password, roles: IS_AUTHENTICATED_FULLY, requires_channel: https }
-        - { path: ^/person, role: IS_AUTHENTICATED_REMEMBERED, requires_channel: https }
+        - { path: ^/, roles: IS_AUTHENTICATED_REMEMBERED, requires_channel: http }
+        - { path: ^/profile/edit, roles: IS_AUTHENTICATED_FULLY, requires_channel: http }
+        - { path: ^/profile/change-username, roles: IS_AUTHENTICATED_FULLY, requires_channel: http }
+        - { path: ^/profile/change-password, roles: IS_AUTHENTICATED_FULLY, requires_channel: http }
+        - { path: ^/person, role: IS_AUTHENTICATED_REMEMBERED, requires_channel: http }
