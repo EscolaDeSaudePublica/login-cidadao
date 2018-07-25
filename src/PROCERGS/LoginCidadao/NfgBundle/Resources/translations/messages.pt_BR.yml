@@ -9,12 +9,12 @@ nfg:
         level1: 'Se você já autorizou todas as opções na página anterior, acesse seu cadastro da Nota Fiscal Gaúcha e verifique se seus dados estão atualizados.'
         try_again: 'Tentar novamente'
     connection_not_found:
-        alert: 'A conta da Nota Fiscal Gaúcha utilizada não está vinculada a um usuário do Login Cidadão. Para mais informações, <a href="%help_url%">clique aqui</a>.'
+        alert: 'A conta da Nota Fiscal Gaúcha utilizada não está vinculada a um usuário do Login Cultura. Para mais informações, <a href="%help_url%">clique aqui</a>.'
         title: 'Conta não vinculada'
-        description: 'Você tentou fazer login com uma conta da Nota Fiscal Gaúcha que ainda não está vinculada a uma conta do Login Cidadão.'
+        description: 'Você tentou fazer login com uma conta da Nota Fiscal Gaúcha que ainda não está vinculada a uma conta do Login Cultura.'
         troubleshooting:
-            login: 'Caso você já possua sua conta no Login Cidadão, é necessário <a href="%login_url%">acessá-la</a> para ativar o vínculo com a Nota Fiscal Gaúcha.'
-            register: 'Se você deseja usar suas informações na Nota Fiscal Gaúcha para criar uma conta do Login Cidadão, você pode <a class="nfgpopup" href="%register_nfg_url%">clicar aqui</a>.'
+            login: 'Caso você já possua sua conta no Login Cultura, é necessário <a href="%login_url%">acessá-la</a> para ativar o vínculo com a Nota Fiscal Gaúcha.'
+            register: 'Se você deseja usar suas informações na Nota Fiscal Gaúcha para criar uma conta do Login Cultura, você pode <a class="nfgpopup" href="%register_nfg_url%">clicar aqui</a>.'
         login: 'Ir para a página de Login'
     already_connected:
         title: 'Conta já viculada'
@@ -24,8 +24,8 @@ nfg:
         back_to_profile: 'Voltar à edição do perfil'
     email_in_use:
         title: 'Esse email já foi usado'
-        description: 'O email cadastrado em sua conta da Nota Fiscal Gaúcha já está em uso em um cadastro do Login Cidadão.'
-        suggestion: 'Se você deseja conectar sua conta da Nota Fiscal Gaúcha com seu Login Cidadão, primeiramente entre na sua conta do Login Cidadão e faça a conexão com a Nota Fiscal Gaúcha na página de edição de perfil.'
+        description: 'O email cadastrado em sua conta da Nota Fiscal Gaúcha já está em uso em um cadastro do Login Cultura.'
+        suggestion: 'Se você deseja conectar sua conta da Nota Fiscal Gaúcha com seu Login Cultura, primeiramente entre na sua conta do Login Cultura e faça a conexão com a Nota Fiscal Gaúcha na página de edição de perfil.'
         login: 'Ir para a página de Login'
     cpf_didnt_match:
         title: 'Seu CPF não confere'

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Login Cidadão - Manutenção em Andamento</title>
+        <title>Login Cultura - Manutenção em Andamento</title>
         <meta http-equiv="refresh" content="30">
         <meta charset="utf-8">
     </head>
@@ -10,7 +10,7 @@
         <p>Uma manutenção agendada está em andamento nesse momento.</p>
         <p>Pedimos desculpas por eventuais transtornos e reforçamos nosso compromisso em sempre prover o melhor serviço possível.</p>
         <p>
-            Equipe do Login Cidadão<br>
+            Equipe do Login Cultura<br>
             <a href="http://www.procergs.rs.gov.br/">PROCERGS</a>
         </p>
 

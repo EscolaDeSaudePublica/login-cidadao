@@ -81,7 +81,7 @@ parameters:
     # Email sender address (usually a no-reply address)
     mailer_sender_mail: no-reply@%site_domain%
     # Email sender name
-    mailer_sender_name: Login Cidadão
+    mailer_sender_name: Login Cultura
 
     # Contact form email address
     contact_form.email: '%mailer_receiver_mail%'
@@ -125,7 +125,7 @@ parameters:
     jwks_private_key_file: private.pem
 
     # Two Factor Auth Issuer Name
-    two_factor_issuer: Login Cidadão
+    two_factor_issuer: Login Cultura
 
     # Enables or disables the contact form's captcha
     contact_form.captcha: true

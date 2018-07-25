@@ -128,8 +128,8 @@ class PopulateDatabaseCommand extends ContainerAwareCommand
 
             $clientManager = $this->getContainer()->get('fos_oauth_server.client_manager');
             $client = $clientManager->createClient();
-            $client->setName('Login Cidadão');
-            $client->setDescription('Login Cidadão');
+            $client->setName('Login Cultura');
+            $client->setDescription('Login Cultura');
             $client->setSiteUrl($url);
             $client->setRedirectUris(array($url));
             $client->setAllowedGrantTypes($grantTypes);

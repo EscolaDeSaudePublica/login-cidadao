@@ -2,10 +2,10 @@
 <servicos>
     <servico>
         <id>SGG_MEU</id>
-        <nome>Login Cidadão</nome>
+        <nome>Login Cultura</nome>
         <orgao-responsavel>SGG/CGCD</orgao-responsavel>
         <tipo>S</tipo>
-        <descricao>O Login Cidadão facilita o cadastro e o relacionamento do cidadão gaúcho nas ferramentas e Serviços Digitais de Governo do Estado.</descricao>
+        <descricao>O Login Cultura facilita o cadastro e o relacionamento do cidadão gaúcho nas ferramentas e Serviços Digitais de Governo do Estado.</descricao>
         <finalistico>S</finalistico>
         <atualizacao>M</atualizacao>
         <ativo>S</ativo>
@@ -18,6 +18,6 @@
             <palavra>governança</palavra>
             <palavra>Governo</palavra>
         </palavras-chave>
-        <link>http://meu.rs.gov.br/</link>
+        <link>http://login.secult.ce.gov.br/</link>
     </servico>
 </servicos>

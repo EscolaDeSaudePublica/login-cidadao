@@ -26,9 +26,9 @@ Revoked: Revogado
 'Authorization not found.': 'Autorização não encontrada.'
 'Wasn''t possible to disable this service.': 'Não foi possível desativar este serviço.'
 'Access Denied.': 'Acesso negado.'
-'Citizen''s Login': 'Login Cidadão'
-'%link_start%Create your account%link_end%': '%link_start%Crie seu Login Cidadão%link_end%'
-'Sign in with your Citizen''s Login': 'Acesse com seu Login Cidadão'
+'Citizen''s Login': 'Login Cultura'
+'%link_start%Create your account%link_end%': '%link_start%Crie seu Login Cultura%link_end%'
+'Sign in with your Citizen''s Login': 'Acesse com seu Login Cultura'
 'Need help?': 'Não consegue conectar?'
 'One account to all of the Government''s services': 'Uma conta única para todos os serviços do Governo'
 'Available services': 'Serviços disponíveis'
@@ -39,7 +39,7 @@ Help: Ajuda
 'Username:': 'Username:'
 Save: Salvar
 'You''ll need a password': 'Você precisa de uma senha'
-'To make sure that you can access the Citizen''s Login even if you lose access to your Facebook or Twitter account, please define a password.': 'Para garantir que você consiga acessar seu Login Cidadão mesmo que você perca acesso às suas contas do Facebook ou do Twitter, por favor defina uma senha.'
+'To make sure that you can access the Citizen''s Login even if you lose access to your Facebook or Twitter account, please define a password.': 'Para garantir que você consiga acessar seu Login Cultura mesmo que você perca acesso às suas contas do Facebook ou do Twitter, por favor defina uma senha.'
 'Type in your password here:': 'Digite sua senha aqui:'
 'And then confirm it here:': 'E confirme ela aqui:'
 'Save username and password': 'Salvar nome de usuário e senha'
@@ -84,7 +84,7 @@ Applications: Aplicativos
 email-confirmation.resent: 'As instruções para confirmação de email foram reenviadas.'
 notification.unconfirmed.email.title: 'Email não confirmado!'
 notification.unconfirmed.email.shortText: 'Caso não confirme seu email em prazo hábil, sua conta será removida. Siga as instruções enviadas por email. <a href="%url%">Reenviar email</a>'
-notification.unconfirmed.email.text: "<p>Para utilizar o Login Cidadão, é necessário que você utilize um endereço de email válido.</p> <p>Caso você não confirme seu endereço de email acessando o link que lhe foi enviado, sua conta será excluída.</p>\n"
+notification.unconfirmed.email.text: "<p>Para utilizar o Login Cultura, é necessário que você utilize um endereço de email válido.</p> <p>Caso você não confirme seu endereço de email acessando o link que lhe foi enviado, sua conta será excluída.</p>\n"
 'Useful Information': 'Informações Úteis'
 'Content License': 'Licença do Conteúdo'
 'Privacy Policy': 'Política de Privacidade'
@@ -94,7 +94,7 @@ Contact: Contato
 exception.alreadyLinkedAccount: 'Essa conta já está conectada a um outro usuário. Você deve desfazer essa conexão antes de tentar conectar com o usuário atual.'
 '<a href="%link%">Background picture</a> by %name%': '<a href="%link%">Imagem de fundo</a> por %name%'
 cpf.registration.title: 'Registro de CPF'
-'Log in using your Citizen''s Login': 'Entre usando seu Login Cidadão'
+'Log in using your Citizen''s Login': 'Entre usando seu Login Cultura'
 Yes: Sim
 No: Não
 social-networks.unlink.no-password: 'Você não pode desvincular uma rede social sem definir uma senha antes.'
@@ -128,12 +128,12 @@ Suggestion: Sugestão
 client.suggestion.registered: 'Sua sugestão foi registrada'
 'Your last suggested Services': 'Seus últimos serviços sugeridos'
 Send: Enviar
-'Login Cidadão': 'Login Cidadão'
-'About Citizen''s Login': 'Sobre o Login Cidadão'
+'Login Cultura': 'Login Cultura'
+'About Citizen''s Login': 'Sobre o Login Cultura'
 'With only one account, the citizen will be able to use government''s digital services.': 'Com apenas um cadastro, o cidadão poderá utilizar os serviços digitais do governo.'
 'One account. The entire Government.': 'Uma conta. O Governo Inteiro.'
 'Creative commons': Licença creative commons
-lc.html.title: 'Login Cidadão'
+lc.html.title: 'Login Cultura'
 form.published: 'Publicado'
 form.visible: 'Visivel'
 grid.search.noresult: 'Nenhum registro encontrado'
@@ -435,8 +435,8 @@ YEMEN: Iêmen
 SOUTH AFRICA: África do Sul
 ZAMBIA: Zâmbia
 ZIMBABWE: Zimbabwe
-'This is the Citizen Login': 'Esse é o Login Cidadão'
-'To enjoy all the benefits of Citizen Login, please check your information and submit the following form.': 'Para aproveitar todos os benefícios do Login Cidadão, por favor verifique seus dados no formulário de cadastro e clique em Criar conta.'
+'This is the Citizen Login': 'Esse é o Login Cultura'
+'To enjoy all the benefits of Citizen Login, please check your information and submit the following form.': 'Para aproveitar todos os benefícios do Login Cultura, por favor verifique seus dados no formulário de cadastro e clique em Criar conta.'
 'After registering you''ll receive a confirmation email to proceed the activation of your account.': 'Depois de enviar o formulário você receberá um email de confirmação para proceder com a ativação da sua conta.'
 'Complement' : 'Complemento'
 'Send' : 'Enviar'
@@ -595,7 +595,7 @@ Activity Log: Registro de Atividade
 Badges: Medalhas
 Dashboard: 'Início'
 badges.list.title: 'O que são as medalhas?'
-badges.list.description: 'Medalhas são os indicadores de validações que sua identidade virtual possui. Elas permitem que os demais sistemas integrados ao Login Cidadão possam melhorar a sua experiência ao utilizar os serviços ofertados.'
+badges.list.description: 'Medalhas são os indicadores de validações que sua identidade virtual possui. Elas permitem que os demais sistemas integrados ao Login Cultura possam melhorar a sua experiência ao utilizar os serviços ofertados.'
 scope.logout: 'Permitir deslogar'
 'Search it!': 'Pesquise aqui!'
 'Don''t know your postal code?': 'Não sabe seu código postal?'
@@ -840,7 +840,7 @@ error.404:
     body: A página solicitada não foi encontrada. Verifique se o endereço utilizado está correto e tente novamente.
 error.400:
     title: Requisição Inválida
-    body: Algum serviço utilizado enviou uma requisição inválida para o Login Cidadão. Entre em contato com os responsáveis pelo sistema utilizado.
+    body: Algum serviço utilizado enviou uma requisição inválida para o Login Cultura. Entre em contato com os responsáveis pelo sistema utilizado.
     line2: Se você não está utilizando um serviço, pode existir um problema em seu navegador. Recomendamos que atualize-o para evitar novos problemas.
 tasks.fill_email:
     title: Informe um endereço de Email
@@ -852,7 +852,7 @@ duplicate_email:
     button.login: Acessar sua conta
 contact:
     title: Contato
-    body: Para obter suporte técnico relacionado ao Login Cidadão por favor preencha o formulário a seguir descrevendo o problema que você está enfrentando.
+    body: Para obter suporte técnico relacionado ao Login Cultura por favor preencha o formulário a seguir descrevendo o problema que você está enfrentando.
     form:
         name:
             label: Nome
@@ -942,10 +942,10 @@ services:
         go_to: Acessar Serviço
     details:
         back: Voltar para os serviços
-        authorized_scopes: Este serviço utiliza os seguintes dados da sua conta do Login Cidadão
+        authorized_scopes: Este serviço utiliza os seguintes dados da sua conta do Login Cultura
         go_to: Acessar o site do serviço
-        active: Este serviço já está ativo na sua conta do Login Cidadão
-        not_active: Este serviço não está ativo na sua conta do Login Cidadão
+        active: Este serviço já está ativo na sua conta do Login Cultura
+        not_active: Este serviço não está ativo na sua conta do Login Cultura
         activate: Ativar este serviço
         wait_launch: Esse serviço ainda não está ativo. Aguarde a data de lançamento.
         deactivate:

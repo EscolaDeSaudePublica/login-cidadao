@@ -14,7 +14,7 @@ nfg:
         description: 'You tried to login using a Nota Fiscal Gaúcha account that is not connected to a Citizen Login account.'
         troubleshooting:
             login: 'If you already own an account on Citizen Login, you''l need to access it and activate it''s use with Nota Fiscal Gaúcha.'
-            register: 'If you wish to use your information at Nota Fiscal Gaúcha to create an account on Login Cidadão, you can <a class="nfgpopup" href="%register_nfg_url%">click here</a>.'
+            register: 'If you wish to use your information at Nota Fiscal Gaúcha to create an account on Login Cultura, you can <a class="nfgpopup" href="%register_nfg_url%">click here</a>.'
         login: 'Go back to the login page'
     already_connected:
         title: 'Account already connected'
@@ -24,8 +24,8 @@ nfg:
         back_to_profile: 'Go back to the profile editing page'
     email_in_use:
         title: 'This email is already in use'
-        description: 'Your email from Nota Fiscal Gaúcha is already being used on another Login Cidadão account.'
-        suggestion: 'If you with to connect your Nota Fiscal Gaúcha account to your Login Cidadão, you have to go to the profile edit page after logging into your Login Cidadão account.'
+        description: 'Your email from Nota Fiscal Gaúcha is already being used on another Login Cultura account.'
+        suggestion: 'If you with to connect your Nota Fiscal Gaúcha account to your Login Cultura, you have to go to the profile edit page after logging into your Login Cultura account.'
         login: 'Go back to the login page'
     cpf_didnt_match:
         title: 'Your CPF didn''t match'

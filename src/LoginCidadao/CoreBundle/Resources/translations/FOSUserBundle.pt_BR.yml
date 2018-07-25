@@ -37,7 +37,7 @@ form.mobile: Celular
 form.mobile.example: (51) 99999-9999
 resseting.forgot_password: 'Esqueceu sua senha?'
 resetting.email.subject: 'Redefinir senha'
-resetting.email.message: 'Alguém solicitou recentemente para redefinir sua senha do Login Cidadão. Se você não fez essa solicitação, apenas ignore essa mensagem.'
+resetting.email.message: 'Alguém solicitou recentemente para redefinir sua senha do Login Cultura. Se você não fez essa solicitação, apenas ignore essa mensagem.'
 resetting.password_already_requested: 'Este usuário já solicitou uma senha nas últimas 24 horas.'
 change_password.submit: 'Alterar senha'
 change_password.flash.success: 'Senha alterada com sucesso!'
@@ -55,8 +55,8 @@ grid.search.title: Resultados
 grid.search.button: Pesquisar
 cep.search.title: 'Consulta cep'
 email.changed.message.subject: 'Seu email foi alterado!'
-email.changed.message.text: "Olá, %name%!\n\nEstamos lhe enviando esse email para informar-lhe que seu endereço de email foi alterado para %email%.\n\nSe não foi você quem fez essa mudança, por favor entre em contato com a equipe do Login Cidadão pois seu cadastro pode ter sido comprometido!\n"
-email.changed.message.text.html: "Olá, %name%!<br><br>Estamos lhe enviando esse email para informar-lhe que seu endereço de email foi alterado para %email%.<br><br>Se não foi você quem fez essa mudança, por favor entre em contato com a equipe do Login Cidadão pois seu cadastro pode ter sido comprometido!"
+email.changed.message.text: "Olá, %name%!\n\nEstamos lhe enviando esse email para informar-lhe que seu endereço de email foi alterado para %email%.\n\nSe não foi você quem fez essa mudança, por favor entre em contato com a equipe do Login Cultura pois seu cadastro pode ter sido comprometido!\n"
+email.changed.message.text.html: "Olá, %name%!<br><br>Estamos lhe enviando esse email para informar-lhe que seu endereço de email foi alterado para %email%.<br><br>Se não foi você quem fez essa mudança, por favor entre em contato com a equipe do Login Cultura pois seu cadastro pode ter sido comprometido!"
 'Connect with Facebook': 'Conectar usando Facebook'
 'Connect with Twitter': 'Conectar usando Twitter'
 'Register with Twitter': 'Registrar usando Twitter'
@@ -73,7 +73,7 @@ security.login.submit: Entrar
 'Use accounts from other services': 'Use contas de outros serviços'
 or: ou
 registration.email.click: 'Confirmar Email'
-'Log in using your Citizen''s Login': 'Acesse usando seu Login Cidadão'
+'Log in using your Citizen''s Login': 'Acesse usando seu Login Cultura'
 'Upload another picture': 'Enviar outra foto'
 'By clicking on create account, you agree to our <a href="%linkTerms%">Privacy and Terms of Service</a>, including our Use of Cookies.': 'Ao clicar em criar conta, você concorda com a <a href="%linkTerms%">Privacidade e Termos de uso</a> do serviço, incluindo nosso uso de cookies.'
 Yes: Sim
@@ -89,5 +89,5 @@ security.login.remember_me: 'Manter conectado'
 'add': 'Adicionar'
 Account Password: Senha da sua Conta
 form.register.call_to_action: Cadastre-se aqui
-form.login.call_to_action: Entrar no Login Cidadão
+form.login.call_to_action: Entrar no Login Cultura
 person.form.birthdate.placeholder: dd/mm/aaaa

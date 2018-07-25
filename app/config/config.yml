@@ -419,7 +419,7 @@ fos_rest:
     disable_csrf_role: ROLE_API
 
 nelmio_api_doc:
-    name: Login Cidadão API
+    name: Login Cultura API
 
 jms_serializer:
     metadata:
