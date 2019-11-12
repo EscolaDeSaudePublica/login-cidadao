@@ -343,8 +343,8 @@ parameters:
 
 beelab_recaptcha2:
     request_method: curl_post
-    site_key: "%recaptcha_public_key%"
-    secret: "%recaptcha_private_key%"
+    site_key: "12345678dsdsff"
+    secret: "5df654df5d4f4fd"
 
 # Uploader
 knp_gaufrette:
